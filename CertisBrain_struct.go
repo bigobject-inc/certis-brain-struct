@@ -12,7 +12,7 @@ type CertisBrain_struct struct {
 }
 
 type Object_struct struct {
-	Global_id	int
+	Global_id	string
 	Object_id	int
 	Object_name	string
 	Probability			float64
