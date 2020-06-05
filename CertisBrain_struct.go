@@ -38,7 +38,7 @@ type Tag_struct struct {
 	// $$ 為什麼要map? 因為互相比較 feature的時候, 就不需要把 slice從頭到尾掃一遍才知道他有哪些feature
 	Basic_Features			map[string]*Feature_struct
 
-	Relation_Tags		map[string]interface{} // $$ 目前有 Wearable_tags 和 POI_tags
+	Relation_tags		map[string]interface{} // $$ 目前有 Wearable_tags 和 POI_tags
 
 	
 	Compound_tags		[]string
