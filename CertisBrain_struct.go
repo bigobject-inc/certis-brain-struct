@@ -66,3 +66,11 @@ type Bounding_box_struct struct {
 	Width	float64	`json:"width"`
 	Height	float64	`json:"height"`
 }
+
+
+type Wearable_struct struct {
+	Object_id	int
+	Object_name	string
+	RelationType string
+
+}
