@@ -72,5 +72,5 @@ type Wearable_struct struct {
 	Object_id	int
 	Object_name	string
 	RelationType string
-
+    // $$ 從 Wearable 搬過來
 }
