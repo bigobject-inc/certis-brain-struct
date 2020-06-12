@@ -76,3 +76,29 @@ type Wearable_struct struct {
 	RelationType string
     // $$ 從 Wearable 搬過來
 }
+
+
+type ConfigSettingStruct struct {
+	ConfigAddress	string
+	ConfigUserName	string
+	ConfigPassword	string
+	ConfigID		string
+}
+
+
+type ConfigTokenStruct struct {
+	Access_token	string
+	Token_type		string
+	Expires_in		int
+	Refresh_token	string
+}
+
+
+type ConfigStruct struct {
+	ID	string
+	Name 	string
+	Description	string
+	Type	string
+	Detail	string
+}
+
